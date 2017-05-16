@@ -1,0 +1,55 @@
+//
+//  ViewController.m
+//  W_MobileSensors
+//
+//  Created by test on 15/9/5.
+//  Copyright (c) 2015年 WYL. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    [self isLogin:YES];
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/**
+ *  判断是否登陆
+ */
+- (void)isLogin:(BOOL)isog{
+    if (isog){
+        NSLog(@"-=-=-=-=-=-已经登陆=========%@",[self returnUserName:@"wOOOw"]);
+    }else{
+        NSLog(@"---------meiy d没有登陆------");
+    }
+}
+
+
+/**
+ *  拼接字符串
+ *
+ *  @param userName 用户名
+ *
+ *  @return 新的名词
+ */
+- (NSString *)returnUserName:(NSString *)userName{
+    
+    NSString *user = @"wwwwwwwwwwww";
+    
+    return [user stringByAppendingString:userName];
+}
+
+@end
