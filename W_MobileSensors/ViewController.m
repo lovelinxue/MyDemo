@@ -17,11 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self isLogin:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/**
+ *  判断是否登陆
+ */
+- (void)isLogin:(BOOL)isog{
+    if (isog){
+        NSLog(@"-=-=-=-=-=-已经登陆=========用户名");
+    }else{
+        NSLog(@"---------meiy d没有登陆------");
+    }
 }
 
 @end
