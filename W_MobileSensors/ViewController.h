@@ -9,7 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+/**
+ *  判断是否登陆
+ */
+- (void)isLogin:(BOOL)isog{
+    if (isog){
+        NSLog(@"-=-=-=-=-=-已经登陆=========用户名");
+    }else{
+        NSLog(@"---------meiy d没有登陆------");
+    }
+}
 
 @end
 
