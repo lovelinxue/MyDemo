@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166459921FA9B62C00BA117C /* 1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 166459911FA9B62C00BA117C /* 1TableViewCell.m */; };
 		C9E79B361B9A76C800BECB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E79B351B9A76C800BECB12 /* main.m */; };
 		C9E79B391B9A76C800BECB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E79B381B9A76C800BECB12 /* AppDelegate.m */; };
 		C9E79B3C1B9A76C800BECB12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E79B3B1B9A76C800BECB12 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		166459901FA9B62C00BA117C /* 1TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 1TableViewCell.h; sourceTree = "<group>"; };
+		166459911FA9B62C00BA117C /* 1TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 1TableViewCell.m; sourceTree = "<group>"; };
 		C9E79B301B9A76C800BECB12 /* W_MobileSensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W_MobileSensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E79B341B9A76C800BECB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E79B351B9A76C800BECB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				C9E79B381B9A76C800BECB12 /* AppDelegate.m */,
 				C9E79B3A1B9A76C800BECB12 /* ViewController.h */,
 				C9E79B3B1B9A76C800BECB12 /* ViewController.m */,
+				166459901FA9B62C00BA117C /* 1TableViewCell.h */,
+				166459911FA9B62C00BA117C /* 1TableViewCell.m */,
 				C9E79B3D1B9A76C800BECB12 /* Main.storyboard */,
 				C9E79B401B9A76C800BECB12 /* Images.xcassets */,
 				C9E79B421B9A76C800BECB12 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				C9E79B3C1B9A76C800BECB12 /* ViewController.m in Sources */,
 				C9E79B391B9A76C800BECB12 /* AppDelegate.m in Sources */,
 				C9E79B361B9A76C800BECB12 /* main.m in Sources */,
+				166459921FA9B62C00BA117C /* 1TableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				C9E79B551B9A76C800BECB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9E79B561B9A76C800BECB12 /* Build configuration list for PBXNativeTarget "W_MobileSensorsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				C9E79B581B9A76C800BECB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
