@@ -19,6 +19,9 @@
     // Override point for customization after application launch.
     NSLog(@"---------meiy d没有登陆------");
     
+    NSLog(@"---------meiy d没有登陆------");
+    
+    
     return YES;
 }
 
